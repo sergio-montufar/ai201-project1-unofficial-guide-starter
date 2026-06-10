@@ -1,0 +1,8 @@
+Professor Khan — CSE 4300 (Operating Systems) — University of Connecticut
+Source: Reddit r/UConn thread "Any Feelings on CSE 4300"
+---
+That final was rough compared to the last two exams. While many of the questions seemed fair content-wise, the sheer number of them was overwhelming. The average on the first exam wasn't great (55%) and the second (~66%) was only a little better. These exams add up to about 61% of our grade, so the grading leans heavily on exams.
+---
+I also thought the exam was really rough and didn't expect that at all. I found another post that mentioned a curve of a whole letter grade, though I'm not sure of the specifics.
+---
+When I took the class a couple of years ago my C got curved to a B. The final was ridiculously long. I wasn't a fan of how the class was taught or assessed; everything seemed outdated, and the assignments and exams never felt relevant or made sense to me. Whatever I know about modern operating systems now was not learned in that class.
