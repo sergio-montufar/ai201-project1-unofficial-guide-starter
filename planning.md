@@ -25,7 +25,7 @@ The domain I chose is student reviews for computer science professors at the Uni
 | 1 | RateMyProfessors — UConn hub | Index of all rated UConn professors; entry point for CS faculty pages | https://www.ratemyprofessors.com/school/1091 |
 | 2 | RateMyProfessors — Derek Aguiar | Reviews of a CSE professor (Algorithms / ML); mixed-to-positive opinions | https://www.ratemyprofessors.com/professor/2460362 |
 | 3 | RateMyProfessors — Justin Furuness | Reviews of a CSE professor; teaching style and difficulty | https://www.ratemyprofessors.com/professor/3127655 |
-| 4 | RateMyProfessors — Cooper Frank | Reviews of a CSE professor; highly rated | https://www.ratemyprofessors.com/professor/3120966 |
+| 4 | RateMyProfessors — Laurent Michel | Reviews of a CSE professor (CSE 3160); fast lectures, curves grades | https://www.ratemyprofessors.com/professor/1135923 |
 | 5 | RateMyProfessors — Jonathan Clark | Reviews of a CSE professor; teaching and grading feedback | https://www.ratemyprofessors.com/professor/2898389 |
 | 6 | RateMyProfessors — Wei Zhang | Reviews of a CSE professor; low-rated (useful contrast / polarized opinions) | https://www.ratemyprofessors.com/professor/2999154 |
 | 7 | Coursicle — CSE 2050 (Data Structures & Algorithms) | 78 course reviews across multiple professors | https://www.coursicle.com/uconn/courses/CSE/2050/ |
@@ -76,14 +76,20 @@ The domain I chose is student reviews for computer science professors at the Uni
 
 | # | Question | Expected answer |
 |---|----------|-----------------|
-| 1 | What do students say about taking CSE 3500 (Algorithms) with Derek Aguiar? | Highly regarded / among the best CS professors; cares about students learning the material; challenging but interesting problem sets every 1–2 weeks with partner allowed, posts lecture notes online, and exams are straightforward and mostly curved. |
-| 2 | Which professor do students recommend for CSE 2050 (Data Structures & Algorithms)? | Don Sheehy is praised. The students call it one of the best classes in the CS department, with lectures that make you think about core CS fundamentals. |
-| 3 | Are exams in CSE 3500 curved, and how hard are they? | Exams are described as straightforward with most things curved. The difficulty is in the weekly/biweekly problem sets rather than the exams. |
-| 4 | What is the workload like in CSE 3500? | Problem sets every 1–2 weeks that are challenging but interesting. You can work with a partner and the class is manageable given the curve. |
-| 5 | Who teaches CSE 3100 (Systems Programming) and what does it cover? | Taught by instructors such as Wei Zhang, Swamy Pattipati, and Ion Mandoiu. The course covers system-level / C programming, processes, small-scale concurrency (multithreading), and memory management/debugging. |
+| 1 | How is Derek Aguiar's grading in his algorithms class? | Well-liked algorithms professor; grading is **forgiving** — homework is mostly completion-based, exams give most of the credit if you follow the general formula (even if the solution is wrong), and the final lets you recover earlier exam points. |
+| 2 | What do students think of Justin Furuness for CSE 3500? | Knowledgeable and makes a hard, programming-heavy class approachable (teaches extra Python). **Opinions on grading differ** — some say he grades strictly with exams worth ~80% of the grade, while others found him lenient and available; several rank him among the best CS professors. |
+| 3 | Who teaches CSE 2050 (Data Structures) and what is she like? | **Lina Kloub** — students say she makes the class easy to follow, draws data structures/algorithms step-by-step on the board, is willing to answer questions, and clearly cares. |
+| 4 | For CSE 3100, what do students say about Wei Zhang versus Swamy Pattipati? | **Wei Zhang**: hard to understand, lectures don't line up with the exams (and she doesn't write them) — several students recommend taking **Swamy Pattipati** instead. **Swamy**: course/exams/homework are tough but he grades accommodatingly and lectures are entertaining. |
+| 5 | Is there a curve in CSE 4300 (Operating Systems) with Khan, and how are the exams? | Exam-heavy (exams ~61% of the grade) with low averages (~55% and ~66% on the midterms); a **curve of about a full letter grade** is reported (one student's C became a B); the final is described as very long. |
 
-<!-- After collecting the real documents, re-verify these expected answers against the actual
-     review text and adjust wording so each stays judgeable as right/wrong. -->
+<!-- Questions revised after collecting the real corpus: every question is now answerable
+     from the actual review text in documents/ (the earlier Don Sheehy / CSE 3500-detail
+     answers came from sources that were never collected). -->
+
+> **Note (recorded during build):** corpus is **10 sources → 37 chunks** as of the
+> latest `embed.py index`. Below the 50-chunk rule-of-thumb only because several
+> Coursicle/Reddit pages contribute just 1–3 reviews each — chunk *size* is correct
+> (one review per chunk); the count rises as more reviews are added.
 
 ---
 
